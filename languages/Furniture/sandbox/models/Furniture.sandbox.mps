@@ -38,6 +38,17 @@
       </concept>
     </language>
     <language id="acc7cb37-6c8c-4d37-bac8-42f11f43dd7e" name="Furniture">
+      <concept id="2232839895336621134" name="Furniture.structure.Project_Component" flags="ng" index="v8b10">
+        <property id="2232839895336621137" name="quantity" index="v8b1v" />
+        <reference id="2232839895336621139" name="component" index="v8b1t" />
+      </concept>
+      <concept id="2232839895336621127" name="Furniture.structure.TextLine" flags="ng" index="v8b19">
+        <property id="2232839895336621128" name="text" index="v8b16" />
+      </concept>
+      <concept id="2232839895336621141" name="Furniture.structure.Garage_Project" flags="ng" index="v8b1r">
+        <child id="2232839895336621150" name="description" index="v8b1g" />
+        <child id="2232839895336621152" name="components" index="v8b1I" />
+      </concept>
       <concept id="2232839895336574554" name="Furniture.structure.Warehouse" flags="ng" index="v9ZDk">
         <child id="2232839895336574557" name="components" index="v9ZDj" />
       </concept>
@@ -102,6 +113,31 @@
       <property role="TrG5h" value="Allen key" />
       <property role="v9ZDr" value="1VWD0S1QPT6/Oak" />
       <property role="v9ZDp" value="1" />
+    </node>
+  </node>
+  <node concept="v8b1r" id="1VWD0S1Rbam">
+    <property role="TrG5h" value="NORRÅSEN" />
+    <node concept="v8b10" id="1VWD0S1RbaE" role="v8b1I">
+      <property role="v8b1v" value="2" />
+      <ref role="v8b1t" node="1VWD0S1QY9m" resolve="Bolt A1" />
+    </node>
+    <node concept="v8b10" id="1VWD0S1RbaG" role="v8b1I">
+      <property role="v8b1v" value="1" />
+      <ref role="v8b1t" node="1VWD0S1QY9p" resolve="Bolt A2" />
+    </node>
+    <node concept="v8b10" id="1VWD0S1RbaJ" role="v8b1I">
+      <property role="v8b1v" value="1" />
+      <ref role="v8b1t" node="1VWD0S1QV1M" resolve="Plank" />
+    </node>
+    <node concept="v8b10" id="1VWD0S1RbaV" role="v8b1I">
+      <property role="v8b1v" value="1" />
+      <ref role="v8b1t" node="1VWD0S1R1gZ" resolve="Allen key" />
+    </node>
+    <node concept="v8b19" id="1VWD0S1Rban" role="v8b1g">
+      <property role="v8b16" value="A solid desk made of raw material." />
+    </node>
+    <node concept="v8b19" id="1VWD0S1Rbax" role="v8b1g">
+      <property role="v8b16" value="Perfect choice for daily use in office." />
     </node>
   </node>
 </model>
