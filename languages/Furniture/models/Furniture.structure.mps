@@ -21,6 +21,9 @@
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
+      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
+        <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -115,6 +118,70 @@
       <property role="20kJfa" value="components" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1VWD0S1QPTi" resolve="Component" />
+    </node>
+  </node>
+  <node concept="Az7Fb" id="1VWD0S1R1h6">
+    <property role="3F6X1D" value="2232839895336621126" />
+    <property role="TrG5h" value="Code_Name" />
+    <property role="FLfZY" value="[@#][A-Z][0-9][0-9][0-9]" />
+    <property role="3GE5qa" value="Garage" />
+  </node>
+  <node concept="1TIwiD" id="1VWD0S1R1h7">
+    <property role="EcuMT" value="2232839895336621127" />
+    <property role="3GE5qa" value="Garage" />
+    <property role="TrG5h" value="TextLine" />
+    <property role="34LRSv" value="Text line" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1VWD0S1R1h8" role="1TKVEl">
+      <property role="IQ2nx" value="2232839895336621128" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1VWD0S1R1he">
+    <property role="EcuMT" value="2232839895336621134" />
+    <property role="3GE5qa" value="Garage" />
+    <property role="TrG5h" value="Project_Component" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1VWD0S1R1hj" role="1TKVEi">
+      <property role="IQ2ns" value="2232839895336621139" />
+      <property role="20kJfa" value="component" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1VWD0S1QPTi" resolve="Component" />
+    </node>
+    <node concept="1TJgyi" id="1VWD0S1R1hh" role="1TKVEl">
+      <property role="IQ2nx" value="2232839895336621137" />
+      <property role="TrG5h" value="quantity" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1VWD0S1R1hl">
+    <property role="EcuMT" value="2232839895336621141" />
+    <property role="3GE5qa" value="Garage" />
+    <property role="TrG5h" value="Garage_Project" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1VWD0S1R1hu" role="1TKVEi">
+      <property role="IQ2ns" value="2232839895336621150" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="description" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1VWD0S1R1h7" resolve="TextLine" />
+    </node>
+    <node concept="1TJgyj" id="1VWD0S1R1hw" role="1TKVEi">
+      <property role="IQ2ns" value="2232839895336621152" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="components" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1VWD0S1R1he" resolve="Project_Component" />
+    </node>
+    <node concept="PrWs8" id="1VWD0S1R1hm" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="1VWD0S1R1hs" role="1TKVEl">
+      <property role="IQ2nx" value="2232839895336621148" />
+      <property role="TrG5h" value="code" />
+      <ref role="AX2Wp" node="1VWD0S1R1h6" resolve="Code_Name" />
     </node>
   </node>
 </model>
