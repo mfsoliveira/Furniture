@@ -48,6 +48,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -56,6 +59,7 @@
   <node concept="25R3W" id="1VWD0S1QPSY">
     <property role="3F6X1D" value="2232839895336574526" />
     <property role="TrG5h" value="Material" />
+    <property role="3GE5qa" value="Warehouse" />
     <ref role="1H5jkz" node="1VWD0S1QPTd" resolve="Steel" />
     <node concept="25R33" id="1VWD0S1QPT4" role="25R1y">
       <property role="3tVfz5" value="2232839895336574532" />
@@ -82,6 +86,7 @@
     <property role="EcuMT" value="2232839895336574546" />
     <property role="TrG5h" value="Component" />
     <property role="34LRSv" value="component" />
+    <property role="3GE5qa" value="Warehouse" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1VWD0S1QPTj" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -102,6 +107,7 @@
     <property role="TrG5h" value="Warehouse" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Warehouse" />
+    <property role="3GE5qa" value="Warehouse" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1VWD0S1QPTt" role="1TKVEi">
       <property role="IQ2ns" value="2232839895336574557" />

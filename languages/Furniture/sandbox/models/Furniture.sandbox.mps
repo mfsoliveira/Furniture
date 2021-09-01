@@ -37,6 +37,15 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="acc7cb37-6c8c-4d37-bac8-42f11f43dd7e" name="Furniture">
+      <concept id="2232839895336574554" name="Furniture.structure.Warehouse" flags="ng" index="v9ZDk">
+        <child id="2232839895336574557" name="components" index="v9ZDj" />
+      </concept>
+      <concept id="2232839895336574546" name="Furniture.structure.Component" flags="ng" index="v9ZDs">
+        <property id="2232839895336574551" name="price" index="v9ZDp" />
+        <property id="2232839895336574549" name="material" index="v9ZDr" />
+      </concept>
+    </language>
   </registry>
   <node concept="v9SLO" id="1VWD0S1QPH$">
     <property role="TrG5h" value="myFile" />
@@ -64,6 +73,35 @@
           <property role="29q25t" value="html" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="v9ZDk" id="1VWD0S1QV1J">
+    <node concept="v9ZDs" id="1VWD0S1QV1M" role="v9ZDj">
+      <property role="TrG5h" value="Plank" />
+      <property role="v9ZDr" value="1VWD0S1QPT4/Maple" />
+      <property role="v9ZDp" value="40" />
+    </node>
+    <node concept="v9ZDs" id="1VWD0S1QY9m" role="v9ZDj">
+      <property role="TrG5h" value="Bolt A1" />
+      <property role="v9ZDp" value="2" />
+    </node>
+    <node concept="v9ZDs" id="1VWD0S1QY9p" role="v9ZDj">
+      <property role="TrG5h" value="Bolt A2" />
+      <property role="v9ZDp" value="2" />
+    </node>
+    <node concept="v9ZDs" id="1VWD0S1R1gO" role="v9ZDj">
+      <property role="TrG5h" value="Bolt A3" />
+      <property role="v9ZDp" value="3" />
+    </node>
+    <node concept="v9ZDs" id="1VWD0S1R1gT" role="v9ZDj">
+      <property role="TrG5h" value="Hammmer" />
+      <property role="v9ZDr" value="1VWD0S1QPT9/Iron" />
+      <property role="v9ZDp" value="12" />
+    </node>
+    <node concept="v9ZDs" id="1VWD0S1R1gZ" role="v9ZDj">
+      <property role="TrG5h" value="Allen key" />
+      <property role="v9ZDr" value="1VWD0S1QPT6/Oak" />
+      <property role="v9ZDp" value="1" />
     </node>
   </node>
 </model>
