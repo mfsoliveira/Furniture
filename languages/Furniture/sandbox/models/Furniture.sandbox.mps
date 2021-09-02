@@ -122,15 +122,15 @@
       <ref role="v8b1t" node="1VWD0S1QY9m" resolve="Bolt A1" />
     </node>
     <node concept="v8b10" id="1VWD0S1RbaG" role="v8b1I">
-      <property role="v8b1v" value="1" />
+      <property role="v8b1v" value="0" />
       <ref role="v8b1t" node="1VWD0S1QY9p" resolve="Bolt A2" />
     </node>
     <node concept="v8b10" id="1VWD0S1RbaJ" role="v8b1I">
-      <property role="v8b1v" value="1" />
+      <property role="v8b1v" value="0" />
       <ref role="v8b1t" node="1VWD0S1QV1M" resolve="Plank" />
     </node>
     <node concept="v8b10" id="1VWD0S1RbaV" role="v8b1I">
-      <property role="v8b1v" value="1" />
+      <property role="v8b1v" value="0" />
       <ref role="v8b1t" node="1VWD0S1R1gZ" resolve="Allen key" />
     </node>
     <node concept="v8b19" id="1VWD0S1Rban" role="v8b1g">
