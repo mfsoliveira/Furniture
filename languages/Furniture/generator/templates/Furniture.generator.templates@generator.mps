@@ -2,6 +2,9 @@
 <model ref="r:f6e7cdf1-18e7-4099-9523-487a2c498ebb(Furniture.generator.templates@generator)">
   <persistence version="9" />
   <languages>
+    <use id="8a180777-e111-4d5d-9cf8-ead1a80bdc12" name="HTML" version="0" />
+    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
+    <use id="6f31a8ec-b544-4032-853c-f2993cb0a156" name="CSS" version="-1" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
